@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>WhatsApp Store</title>
+  </head>
+
+  <body>
+    <section class="container content-section">
+      <div class="catalogo-items" id="misProductos"></div>
+    </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">PEDIDO</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">PRODUCTO</span>
+        <span class="cart-precio cart-header cart-column">PRECIO</span>
+        <span class="cart-cantidad cart-header cart-column">CANT</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-text">Total</strong>
+        <span class="cart-total-precio">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        COMPRAR
+      </button>
+    </section>
+  </body>
+</html>
